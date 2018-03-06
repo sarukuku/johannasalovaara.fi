@@ -17,6 +17,7 @@ export default class Columnize extends React.Component {
         <style jsx>{`
           .colWrap {
             display: block;
+            padding-bottom: 1rem;
           }
 
           .colWrap :global(p) {
@@ -31,7 +32,7 @@ export default class Columnize extends React.Component {
             .colWrap {
               display: flex;
               flex-wrap: nowrap;
-              max-width: 800px;
+              max-width: 1000px;
               margin: 0 auto;
             }
 

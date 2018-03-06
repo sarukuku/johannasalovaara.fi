@@ -2,30 +2,38 @@ import React from 'react'
 import Calm from '../svg/face-calm.svg'
 import Enthusiastic from '../svg/face-enthusiastic.svg'
 import Wink from '../svg/face-wink.svg'
+import LinkedIn from '../svg/icon-linkedin.svg'
+import Twitter from '../svg/icon-twitter.svg'
 
-export default class Face extends React.Component {
+export default class Icon extends React.Component {
   render () {
-    const { expression } = this.props
+    const { name } = this.props
 
     return (
-      <div className='face'>
+      <div className='icon'>
         <div className='svg-container'>
-          {expression === 'calm' &&
+          {name === 'calm' &&
             <Calm />
           }
-          {expression === 'enthusiastic' &&
+          {name === 'enthusiastic' &&
             <Enthusiastic />
           }
-          {expression === 'wink' &&
+          {name === 'wink' &&
             <Wink />
+          }
+          {name === 'linkedin' &&
+            <LinkedIn />
+          }
+          {name === 'twitter' &&
+            <Twitter />
           }
         </div>
 
         <style jsx>{`
-        .face {
+        .icon {
           position: relative;
           width: 4rem;
-          margin: 1em;
+          margin: 1rem;
         }
   
         .svg-container {
