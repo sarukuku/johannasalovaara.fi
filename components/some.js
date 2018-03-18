@@ -17,7 +17,7 @@ export default () => (
         </a>
       </li>
     </ul>
-    <Smile />
+    <Smile className='smile' />
     <style jsx>{`
       .some {
         text-align: center;
@@ -38,6 +38,18 @@ export default () => (
 
       a :globa(> .icon) {
         margin: 0.25rem;
+      }
+
+      a:hover :globa(> .icon) {
+        transform: rotateY(180deg);
+      }
+
+      :global(.smile) {
+        transition: all .2s ease-in-out;
+      }
+
+      :global(.smile:hover) {
+        transform: rotateZ(5deg) scale(1.1);
       }
     `}</style>
   </div>

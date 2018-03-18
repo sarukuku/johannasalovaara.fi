@@ -23,21 +23,13 @@ export default class Icon extends React.Component {
 
     return (
       <div className={classes}>
-        <Navigation />
+        <Navigation open={this.state.navOpen} />
         <Toggle
           open={this.state.navOpen}
           onClick={() => { this.toggleNavigation() }} />
 
         <style jsx>{`
-          :global(.main-nav) {
-            top: 100%;
-            opacity: 0;
-          }
 
-          :global(.m-nav-state--open .main-nav) {
-            top: 0;
-            opacity: 1;
-          }
         `}</style>
       </div>
     )

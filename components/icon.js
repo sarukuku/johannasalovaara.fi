@@ -34,6 +34,7 @@ export default class Icon extends React.Component {
           position: relative;
           width: 4rem;
           margin: 1rem;
+          transition: all .2s ease-in-out;
         }
   
         .svg-container {
