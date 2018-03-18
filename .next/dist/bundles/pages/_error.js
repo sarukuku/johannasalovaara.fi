@@ -67,24 +67,25 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 9);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 10:
+/***/ "/Users/Joonas/Documents/Code/Sites/johannasalovaara.com/node_modules/next/dist/pages/_error.js":
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/Joonas/Documents/Code/Sites/johannasalovaara.com/node_modules/next/dist/pages/_error.js");
 
 /***/ }),
 
-/***/ 9:
+/***/ 1:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(10);
+module.exports = __webpack_require__("/Users/Joonas/Documents/Code/Sites/johannasalovaara.com/node_modules/next/dist/pages/_error.js");
 
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=_error.js.map

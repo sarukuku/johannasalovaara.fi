@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Masthead from '../components/masthead'
 import Heading from '../components/heading'
 import Columnize from '../components/columnize'
+import SiteHeader from '../containers/header'
 import Icon from '../components/icon'
 import SoMe from '../components/some'
 import settings from '../settings'
@@ -10,8 +11,8 @@ import settings from '../settings'
 export default class Index extends React.Component {
   componentDidMount () {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js')
-        .catch(err => console.error('Service worker registration failed', err))
+      // navigator.serviceWorker.register('/sw.js')
+      //  .catch(err => console.error('Service worker registration failed', err))
     } else {
       console.log('Service worker not supported')
     }
@@ -29,6 +30,7 @@ export default class Index extends React.Component {
           <meta name='theme-color' content={settings.colors.salmon} />
         </Head>
 
+        <SiteHeader />
         <Masthead />
 
         <section className='m-text-align--center'>
