@@ -28,10 +28,10 @@ export default class Navigation extends React.Component {
     return (
       <nav className={`main-nav ${this.state.navOpen ? 'm--open' : ''}`} ref={(nav) => { this.nav = nav }} >
         <ul>
-          <li><a href='#'>Palvelut</a></li>
-          <li><a href='#'>Kenelle?</a></li>
-          <li><a href='#'>Tausta</a></li>
-          <li><a href='#'>Yhteystiedot</a></li>
+          <li><a onClick={this.props.onClick} href='#palvelut'>Palvelut</a></li>
+          <li><a onClick={this.props.onClick} href='#kenelle'>Kenelle?</a></li>
+          <li><a onClick={this.props.onClick} href='#tausta'>Tausta</a></li>
+          <li><a onClick={this.props.onClick} href='#yhteystiedot'>Yhteystiedot</a></li>
         </ul>
         <style jsx>{`
           .main-nav {
@@ -103,6 +103,47 @@ export default class Navigation extends React.Component {
             font-weight: bold;
             font-family: 'Sporting Grotesque Bold', sans-serif;
             line-height: 1.2;
+          }
+
+          @media (min-width: ${settings.breakPoints.l}) {
+            .main-nav {
+              display: block !important;
+              position: absolute;
+              overflow: visible;
+              height: auto;
+              max-width: 1024px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+
+            .main-nav:before {
+              display: none;
+            }
+
+            ul {
+              visibility: visible;
+              flex-direction: row;
+              opacity: 1;
+              width: 100%;
+              height: auto;
+              transform: none;
+              align-items: normal;
+              justify-content: space-between;
+              padding: 0;
+            }
+
+            li {
+              margin: 2rem 2rem 0 2rem;
+            }
+
+            a {
+              font-size: 20px;
+              line-height: 1;
+            }
+
+            a:hover {
+              text-decoration: line-through;
+            }
           }
         `}</style>
       </nav>

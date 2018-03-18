@@ -4,7 +4,7 @@ import settings from '../settings'
 
 export default class Heading extends React.Component {
   render () {
-    const {children, semanticLevel, textAlign, gradientDirection, size, className} = this.props
+    const {children, semanticLevel, textAlign, gradientDirection, size, className, ...other} = this.props
     const HeadingTag = semanticLevel
 
     const classes = cN({
@@ -15,7 +15,7 @@ export default class Heading extends React.Component {
     })
 
     return (
-      <HeadingTag className={`${classes} ${className || ''}`}>
+      <HeadingTag className={`${classes} ${className || ''}`} {...other}>
         {children}
         <style jsx>{`
           :global(.heading) {

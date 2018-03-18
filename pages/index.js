@@ -48,7 +48,7 @@ export default class Index extends React.Component {
         </section>
 
         <section className='m-bg-color--salmon'>
-          <Heading semanticLevel='h2' textAlign='center' gradientDirection='to salmon'>
+          <Heading id='palvelut' semanticLevel='h2' textAlign='center' gradientDirection='to salmon'>
             Palvelut
           </Heading>
 
@@ -94,7 +94,7 @@ export default class Index extends React.Component {
         </section>
 
         <section className='m-text-align--center'>
-          <Heading semanticLevel='h2' textAlign='center' gradientDirection='to white'>
+          <Heading id='kenelle' semanticLevel='h2' textAlign='center' gradientDirection='to white'>
             Kenelle
           </Heading>
 
@@ -108,7 +108,7 @@ export default class Index extends React.Component {
         </section>
 
         <section className='m-bg-color--salmon'>
-          <Heading semanticLevel='h2' textAlign='center' gradientDirection='to salmon'>
+          <Heading id='tausta' semanticLevel='h2' textAlign='center' gradientDirection='to salmon'>
             Tausta
           </Heading>
 
@@ -141,7 +141,7 @@ export default class Index extends React.Component {
         </section>
 
         <section>
-          <Heading semanticLevel='h2' textAlign='center' gradientDirection='to white'>
+          <Heading id='yhteystiedot' semanticLevel='h2' textAlign='center' gradientDirection='to white'>
             Yhteystiedot
           </Heading>
 
@@ -250,7 +250,7 @@ export default class Index extends React.Component {
             max-width: 100%;
             margin: 1rem auto 0 auto;
             left: 50%;
-            transform: translateX(-50%);
+            transform: translate(-50%, 4px);
           }
 
           .hidden-but-readable {

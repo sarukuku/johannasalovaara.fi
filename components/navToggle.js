@@ -44,6 +44,12 @@ export default ({ onClick, open }) => (
         transform: rotate(-20deg);
         margin-top: calc(-1.2rem - 4px);        
       }
+
+      @media (min-width: ${settings.breakPoints.l}) {
+        .nav-toggle {
+          display: none;
+        }
+      }
     `}</style>
   </div>
 )
