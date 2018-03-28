@@ -27,8 +27,6 @@ export default class Icon extends React.Component {
         <Toggle
           open={this.state.navOpen}
           onClick={() => { this.toggleNavigation() }} />
-
-        <style jsx>{``}</style>
       </div>
     )
   }
