@@ -39,11 +39,11 @@ export default class Index extends React.Component {
           </Heading>
 
           <p>
-            Autan yrityksiä, järjestöjä ja asiantuntijoita viestimään paremmin. Mikäli haluat kasvattaa tietoisuutta brändistäsi, sitouttaa asiakkaasi tehokkaammin tai vaikuttaa ympäröivään yhteiskuntaasi, on viestintä keino tavoittaa yleisösi.
+            Autan yrityksiä, järjestöjä ja asiantuntijoita viestimään paremmin. Mikäli haluat kasvattaa tietoisuutta brändistäsi, sitouttaa asiakkaasi tehokkaammin tai vaikuttaa ympäröivään yhteiskuntaasi, on viestintä oikea keino tavoittaa yleisösi.
           </p>
 
           <p>
-            Viestinnän ytimessä ovat laadukkaat sisällöt. Tuotan sisältöjä, jotka vastaavat tarpeisiisi – oli se sitten keskustelun herättäminen, toimintasi merkityksen muotoilu tai digitaalisen verkostosi kasvattaminen.
+            Viestinnän ytimessä ovat laadukkaat sisällöt. Sisältöjen kautta voit herättää keskustelua, kertoa tarinasi vaikuttavammin ja kasvattaa digitaalista verkostoasi. Suunnittelen ja tuotan sisältöjä, jotka palvelevat liiketoimintaasi ja edistävät sanomaasi.
           </p>
         </section>
 
@@ -99,7 +99,7 @@ export default class Index extends React.Component {
           </Heading>
 
           <p>
-            Teen viestintää kaikenlaisille organisaatioille yrityksistä järjestöihin. Viestintä- ja markkinointitoimistoille toimin freelancerina sisällöntuotannon ja viestinnän suunnittelun projekteissa.
+            Teen viestintää kaikenlaisille organisaatioille yrityksistä järjestöihin. Viestintä- ja markkinointitoimistoille toimin freelancerina sisällöntuotannossa ja viestinnän suunnittelun projekteissa.
           </p>
 
           <p>
@@ -117,16 +117,7 @@ export default class Index extends React.Component {
               Viestintä
             </Heading>
             <p>
-              Ennen freelanceriksi hyppäämistä toimin viisi vuotta eri positioissa viestintätoimistossa. Viestinnän kokemusta minulle on kertynyt pörssiyhtiöistä ja järjestöistä startup-yrityksiin, mm. IT-, turvallisuus-, rakennus- ja terveysaloilta. Olen toteuttanut asiakkailleni viestintää sisällöntuottajan, valmentajan, viestintäkonsultin ja viestinnän suunnittelijan rooleissa.
-            </p>
-          </Columnize>
-
-          <Columnize>
-            <Heading semanticLevel='h3' size='medium'>
-              Markkinointi
-            </Heading>
-            <p>
-              Olen valmistunut Turun yliopiston kauppakorkeakoulusta kauppatieteiden maisteriksi (KTM) markkinointi pääaineenani. Opintojeni ohella työskentelin mainostoimistossa, jossa kartutin käytännön kokemusta markkinoinnin ja brändäyksen maailmasta.
+              Ennen freelanceriksi hyppäämistä toimin viisi vuotta eri positioissa viestintä- ja markkinointitoimistoissa. Viestinnän kokemusta minulle on kertynyt pörssiyhtiöistä ja järjestöistä startup-yrityksiin, mm. IT-, turvallisuus-, rakennus- ja terveysaloilta. Olen toteuttanut asiakkailleni viestintää kirjoittajan, valmentajan, viestintäkonsultin ja viestinnän suunnittelijan rooleissa. Olen valmistunut Turun yliopiston kauppakorkeakoulusta kauppatieteiden maisteriksi (KTM) markkinointi pääaineenani.
             </p>
           </Columnize>
 
@@ -135,7 +126,7 @@ export default class Index extends React.Component {
               Teologia
             </Heading>
             <p>
-              Viestinnän töiden ohella opiskelen teologiaa ja uskontotutkimusta Helsingin yliopistolla. Sydäntäni lähellä ovat siis markkinointiviestinnän lisäksi eksistentiaaliset kysymykset ja hengellinen pohdiskelu.
+              Opiskelen tällä hetkellä teologiaa Helsingin yliopistolla viestinnän töiden ohella. Sydäntäni lähellä ovat siis markkinointiviestinnän lisäksi eksistentiaaliset kysymykset ja kaikenlainen teologinen pohdiskelu.
             </p>
           </Columnize>
         </section>
@@ -154,7 +145,7 @@ export default class Index extends React.Component {
               <br />
               –
               <br />
-              <a href='tel:+358400642709'>+358 400 642 709</a>
+              <a href='tel:+358400642709'>0400 642 709</a>
             </p>
           </Columnize>
 
