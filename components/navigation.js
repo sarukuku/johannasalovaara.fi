@@ -114,6 +114,11 @@ export default class Navigation extends React.Component {
               max-width: 1024px;
               left: 50%;
               transform: translateX(-50%);
+
+              animation-duration: 1s;
+              animation-fill-mode: both;
+              animation-name: fadeIn;
+              animation-delay: 0.6s;
             }
 
             .main-nav:before {
@@ -137,12 +142,37 @@ export default class Navigation extends React.Component {
             }
 
             a {
+              position: relative;
               font-size: 20px;
               line-height: 1;
             }
 
-            a:hover {
-              text-decoration: line-through;
+            a:before {
+              display: block;
+              content: '';
+              position: absolute;
+              bottom: 0;
+              left: 1px;
+              width: 0;
+              height: 2px;
+              background-color: ${settings.colors.blue};
+              transition: width .2s ease-out, opacity .2s ease-out;
+              opacity: 0;
+            }
+
+            a:hover:before {
+              width: 100%;
+              opacity: 1;
+            }
+
+            @keyframes fadeIn {
+              from {
+                opacity: 0;
+              }
+            
+              to {
+                opacity: 1;
+              }
             }
           }
         `}</style>

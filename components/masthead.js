@@ -28,6 +28,11 @@ export default () => (
         width: 80%; 
         vertical-align: middle; 
         overflow: hidden;
+
+        animation-duration: 1s;
+        animation-fill-mode: both;
+        animation-name: fadeIn;
+        animation-delay: 0.2s;
       }
 
       .svg-container :global(svg) { 
@@ -73,6 +78,15 @@ export default () => (
         }
       }
 
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+      
+        to {
+          opacity: 1;
+        }
+      }
     `}</style>
   </header>
 )

@@ -16,7 +16,10 @@ export default class Heading extends React.Component {
 
     return (
       <HeadingTag className={`${classes} ${className || ''}`} {...other}>
-        {children}
+        <span className='htext'>
+          {children}
+        </span>
+
         <style jsx>{`
           :global(.heading) {
             font-size: 30px;
@@ -26,7 +29,14 @@ export default class Heading extends React.Component {
             font-family: 'Sporting Grotesque Bold', sans-serif;
             line-height: 1.2;
             margin-bottom: 1rem;
-            padding: 0 1rem;
+            padding: 0 1rem;            
+          }
+
+          :global(.htext) {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-name: fadeIn;
+            animation-delay: 0.8s;
           }
 
           :global(.m-gradient--to-white) {
@@ -76,6 +86,16 @@ export default class Heading extends React.Component {
             :global(.m-gradient--to-white),
             :global(.m-gradient--to-salmon) {
               padding: 6rem 1rem;
+            }
+          }
+
+          @keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+          
+            to {
+              opacity: 1;
             }
           }
         `}</style>
