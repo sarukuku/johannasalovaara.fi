@@ -54,7 +54,7 @@ export default class Index extends React.Component {
 
           <Columnize large>
             <div>
-              <Icon name='calm' />
+              <Icon name='calm' animated style={{'animationDelay': '3s'}} />
               <Heading semanticLevel='h3' size='medium'>
                 Viestinnän<br />sisällöt
               </Heading>
@@ -69,7 +69,7 @@ export default class Index extends React.Component {
             </div>
 
             <div>
-              <Icon name='enthusiastic' />
+              <Icon name='enthusiastic' animated style={{'animationDelay': '9s'}} />
               <Heading semanticLevel='h3' size='medium'>
                 Viestinnän<br />strateginen<br />suunnittelu
               </Heading>
@@ -81,7 +81,7 @@ export default class Index extends React.Component {
             </div>
 
             <div>
-              <Icon name='wink' />
+              <Icon name='wink' animated style={{'animationDelay': '6s'}} />
               <Heading semanticLevel='h3' size='medium'>
                 Viestinnän<br />konsultointi
               </Heading>
