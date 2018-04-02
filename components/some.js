@@ -5,13 +5,13 @@ export default () => (
   <div className='some'>
     <ul>
       <li>
-        <a href='https://linkedin.com/'>
+        <a href='https://linkedin.com/in/johanna-salovaara/'>
           <span className='hidden-but-readable'>LinkedIn</span>
           <Icon name='linkedin' />
         </a>
       </li>
       <li>
-        <a href='https://twitter.com/'>
+        <a href='https://twitter.com/johannasalovaar/'>
           <span className='hidden-but-readable'>Twitter</span>
           <Icon name='twitter' />
         </a>

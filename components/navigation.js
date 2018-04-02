@@ -29,8 +29,8 @@ export default class Navigation extends React.Component {
       <nav className={`main-nav ${this.state.navOpen ? 'm--open' : ''}`} ref={(nav) => { this.nav = nav }} >
         <ul>
           <li><a onClick={this.props.onClick} href='#palvelut'>Palvelut</a></li>
-          <li><a onClick={this.props.onClick} href='#kenelle'>Kenelle?</a></li>
-          <li><a onClick={this.props.onClick} href='#tausta'>Tausta</a></li>
+          <li><a onClick={this.props.onClick} href='#kenelle'>Kenelle</a></li>
+          <li><a onClick={this.props.onClick} href='#taustaa'>Taustaa</a></li>
           <li><a onClick={this.props.onClick} href='#yhteystiedot'>Yhteystiedot</a></li>
         </ul>
         <style jsx>{`

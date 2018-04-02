@@ -108,8 +108,8 @@ export default class Index extends React.Component {
         </section>
 
         <section className='m-bg-color--salmon'>
-          <Heading id='tausta' semanticLevel='h2' textAlign='center' gradientDirection='to salmon'>
-            Tausta
+          <Heading id='taustaa' semanticLevel='h2' textAlign='center' gradientDirection='to salmon'>
+            Taustaa
           </Heading>
 
           <Columnize>
@@ -138,7 +138,7 @@ export default class Index extends React.Component {
 
           <Columnize>
             <Heading semanticLevel='h3' size='medium'>
-              Pyydä tarjousta<br />tai kysy lisää!
+              Pyydä tarjousta<br />tai kysy lisää
             </Heading>
             <p>
               <a href='mailto:johanna.salovaara11@gmail.com'>johanna.salovaara11@gmail.com</a>
