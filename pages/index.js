@@ -157,6 +157,7 @@ export default class Index extends React.Component {
         <style jsx global>{`
           @font-face {
             font-family: 'Sporting Grotesque Bold';
+            font-display: swap;
             src: url('/static/webfonts/SportingGrotesque/Sporting_Grotesque-Bold.eot');
             src: url('/static/webfonts/SportingGrotesque/Sporting_Grotesque-Bold.eot?#iefix') format('embedded-opentype'),
                 url('/static/webfonts/SportingGrotesque/Sporting_Grotesque-Bold.woff') format('woff'),
@@ -167,6 +168,7 @@ export default class Index extends React.Component {
           
           @font-face {
             font-family: 'Sporting Grotesque Regular';
+            font-display: swap;
             src: url('/static/webfonts/SportingGrotesque/Sporting_Grotesque-Regular.eot');
             src: url('/static/webfonts/SportingGrotesque/Sporting_Grotesque-Regular.eot?#iefix') format('embedded-opentype'),
                 url('/static/webfonts/SportingGrotesque/Sporting_Grotesque-Regular.woff') format('woff'),
@@ -177,6 +179,7 @@ export default class Index extends React.Component {
 
           @font-face {
             font-family: 'Quattrocento Regular';
+            font-display: swap;
             src: url('/static/webfonts/Quattrocento/quattrocento-regular-webfont.woff2') format('woff2'),
                 url('/static/webfonts/Quattrocento/quattrocento-regular-webfont.woff') format('woff');
             font-weight: normal;
@@ -185,6 +188,7 @@ export default class Index extends React.Component {
         
           @font-face {
             font-family: 'Quattrocento Bold';
+            font-display: swap;
             src: url('/static/webfonts/Quattrocento/quattrocento-bold-webfont.woff2') format('woff2'),
                 url('/static/webfonts/Quattrocento/quattrocento-bold-webfont.woff') format('woff');
             font-weight: normal;
